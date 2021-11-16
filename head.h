@@ -14,8 +14,12 @@ int pos_der;
 struct arbol *izq;
 struct arbol *der;
 };
-    
-    
+typedef struct arbol Arbol;
+
+  
+Arbol *nuevoNodo(dato Dato);
+void insertar(Arbol*nodo, int dato);
+void mostrar (Arbol *arbolNodo);  
     
 
 
